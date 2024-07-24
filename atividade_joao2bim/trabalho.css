@@ -1,9 +1,24 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+*{
+    margin: 0;
+    font-family: 'Playfair Display';
+}
+
+main{
+    min-height: calc(100vh - 15rem);
+    margin: 1.5rem;
+    text-align:justify;
+}
+
+main div{
+    padding-bottom: 2rem;
+}
 .texto{
     margin: 0;
     border: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    justify-content: left;
+    align-items: start;
 }
 
 header{
@@ -20,6 +35,8 @@ header{
     height: 120px;
     align-items: center;
     background-image: url("banner.jpeg");
+    justify-content: center;
+    font-size: x-large;
 }
 
 header nav{
@@ -27,18 +44,27 @@ header nav{
     background-color: rgb(108, 147, 255);
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     
 }
 header nav a{
     color: white;
     text-decoration: none;
+    align-items: center;
 }
 
-main {
+div.apresentacao{
+    text-align:justify;
+}
+
+
+
+.formulario{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 120px - 4rem);
+    
 }
 
 fieldset{
@@ -80,9 +106,72 @@ div {
 }
 
 footer{
-    align-items: center;
+    
     color: aliceblue;
     background-color: rgb(108, 147, 255);
     height: 40px;
+    min-height: calc(10vh - 20px - 4rem);
     
 }
+
+
+.toldo{
+    display: block;
+    min-height: 100vh;
+}
+
+.toldo div, p, a{
+    padding: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.toldo div p{
+    font-weight: 900;
+}
+
+.toldo div li{
+    margin: 1rem;
+}
+
+.toldo div a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+table, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 2rem;
+}
+
+
+table tr td b{
+    display: flex;
+    justify-content: center;
+}
+
+table tr td{
+    padding: 5px;
+    text-align: center;
+    -webkit-text-stroke-width: 0.03rem;
+}
+
+
+.materia {
+    text-align: left;
+    -webkit-text-stroke-width: 0rem;
+}
+
+.nota {
+    -webkit-text-stroke-width: 0rem;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
