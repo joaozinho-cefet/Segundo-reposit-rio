@@ -107,6 +107,8 @@ div {
 
 footer{
     
+    display: flex;
+    align-items: center;
     color: aliceblue;
     background-color: rgb(108, 147, 255);
     height: 40px;
